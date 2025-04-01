@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "7af5d8ba-d117-4088-8a6a-022dc729a75f",
+		"name": "rota_buscar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43601685",
+		"_collection_link": "https://warped-crescent-8043599.postman.co/workspace/Let%25C3%25ADcia-Salviano's-Workspace~91fde880-fefe-4125-862c-c46a31edf60d/collection/43601685-7af5d8ba-d117-4088-8a6a-022dc729a75f?action=share&source=collection_link&creator=43601685"
+	},
+	"item": [
+		{
+			"name": "http://0.0.0.0:8000/todas?query=\"\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/todas?query=\"\"",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"todas"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "\"\""
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
